@@ -35,7 +35,7 @@ public class PercolationVisualizer {
         StdDraw.filledSquare(n / 2.0, n / 2.0, n / 2.0);
 
         // draw n-by-n grid
-        int opened = 0;
+        int opened = 0;///////////////////////////////
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= n; col++) {
                 if (perc.isFull(row, col)) {
